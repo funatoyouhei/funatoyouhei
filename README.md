@@ -3,7 +3,7 @@
 <!-- ============================================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,40:1a1e2e,70:2d1b4e,100:4c1d95&height=220&section=header&text=funatoyouhei&fontSize=64&fontColor=c9d1d9&fontAlignY=55&animation=fadeIn&desc=深夜2時のターミナルが暴走した&descSize=18&descAlignY=78&descColor=a371f7" width="100%" />
+<img src="./assets/header.svg" width="100%" />
 
 <br>
 
@@ -228,7 +228,7 @@ $ echo $LINKS
 <br>
 
 <a href="https://portfolio-713.pages.dev/">
-  <img src="https://img.shields.io/badge/Portfolio-9d4edd?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="./assets/portfolio-banner.svg" width="280" />
 </a>
 
 <br><br>
@@ -243,7 +243,7 @@ $ echo $LINKS
 
 <br>
 
-<sub>深夜のコーヒー代になります。猫のおやつかも。もしくは猫専用のPCを購入するかも。</sub>
+<b>深夜のコーヒー代になります。猫のおやつかも。もしくは猫専用のPCを購入するかも。</b>
 
 </div>
 

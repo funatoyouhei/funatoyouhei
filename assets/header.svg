@@ -1,0 +1,103 @@
+<svg width="100%" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 背景グラデーション -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="35%" style="stop-color:#1a1e2e"/>
+      <stop offset="70%" style="stop-color:#2d1b4e"/>
+      <stop offset="100%" style="stop-color:#4c1d95"/>
+    </linearGradient>
+    <!-- グロー用フィルター -->
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- スキャンラインパターン -->
+    <pattern id="scanlines" width="100%" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="800" y2="0" stroke="rgba(255,255,255,0.03)" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="800" height="220" fill="url(#bg)"/>
+  <!-- スキャンライン -->
+  <rect width="800" height="220" fill="url(#scanlines)" opacity="0.5"/>
+
+  <!-- 流れる光の粒子 -->
+  <g opacity="0.6">
+    <circle cx="50" cy="60" r="2" fill="#a371f7">
+      <animate attributeName="cx" from="-10" to="810" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="120" r="1.5" fill="#58a6ff">
+      <animate attributeName="cx" from="-10" to="810" dur="8s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="8s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="40" r="2" fill="#c9d1d9">
+      <animate attributeName="cx" from="-10" to="810" dur="7s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="7s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="160" r="1.5" fill="#a371f7">
+      <animate attributeName="cx" from="-10" to="810" dur="9s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="9s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="180" r="2" fill="#58a6ff">
+      <animate attributeName="cx" from="-10" to="810" dur="5s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="5s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="90" r="1" fill="#c9d1d9">
+      <animate attributeName="cx" from="-10" to="810" dur="10s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="10s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- パルスする背景リング -->
+  <circle cx="400" cy="110" r="80" fill="none" stroke="#4c1d95" stroke-width="1" opacity="0.3">
+    <animate attributeName="r" values="60;120;60" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="110" r="100" fill="none" stroke="#2d1b4e" stroke-width="1" opacity="0.2">
+    <animate attributeName="r" values="80;150;80" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0;0.3" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- メインタイトル -->
+  <text x="400" y="105" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="58" font-weight="bold" fill="#c9d1d9" filter="url(#glow-strong)">
+    funatoyouhei
+    <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- アンダーライン（伸びるアニメ） -->
+  <line x1="400" y1="115" x2="400" y2="115" stroke="#a371f7" stroke-width="2" filter="url(#glow-soft)">
+    <animate attributeName="x1" from="400" to="120" dur="1.2s" fill="freeze"/>
+    <animate attributeName="x2" from="400" to="680" dur="1.2s" fill="freeze"/>
+  </line>
+
+  <!-- サブタイトル -->
+  <text x="400" y="155" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="16" fill="#a371f7" opacity="0" filter="url(#glow-soft)">
+    深夜2時のターミナルが暴走した
+    <animate attributeName="opacity" values="0;0;1" dur="2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2.5s" begin="2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- コーナーデコレーション -->
+  <text x="16" y="24" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.7">~/funatoyouhei</text>
+  <text x="784" y="24" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.7" text-anchor="end">$ _</text>
+  <text x="784" y="210" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.7" text-anchor="end">
+    [深夜モード: ON]
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+</svg>
