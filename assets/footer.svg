@@ -1,0 +1,71 @@
+<svg width="100%" height="130" viewBox="0 0 800 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#0d1117;stop-opacity:0"/>
+      <stop offset="40%"  style="stop-color:#1a1e2e;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#4c1d95;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:#4c1d95"/>
+      <stop offset="50%"  style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#2d1b4e"/>
+    </linearGradient>
+    <filter id="glow-sm">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景フェード -->
+  <rect width="800" height="130" fill="url(#footer-bg)"/>
+
+  <!-- 波形1（奥） -->
+  <path fill="#2d1b4e" opacity="0.5">
+    <animate attributeName="d"
+      values="M0,60 C200,30 400,90 600,50 C700,30 750,60 800,45 L800,130 L0,130 Z;
+              M0,70 C150,40 350,80 550,45 C680,20 740,70 800,55 L800,130 L0,130 Z;
+              M0,60 C200,30 400,90 600,50 C700,30 750,60 800,45 L800,130 L0,130 Z"
+      dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- 波形2（中） -->
+  <path fill="#4c1d95" opacity="0.6">
+    <animate attributeName="d"
+      values="M0,80 C180,55 360,100 540,65 C660,45 730,80 800,70 L800,130 L0,130 Z;
+              M0,75 C200,95 380,55 560,80 C680,100 740,65 800,80 L800,130 L0,130 Z;
+              M0,80 C180,55 360,100 540,65 C660,45 730,80 800,70 L800,130 L0,130 Z"
+      dur="5s" begin="0.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- 波形3（手前） -->
+  <path fill="#7c3aed" opacity="0.4">
+    <animate attributeName="d"
+      values="M0,100 C160,75 320,115 480,85 C600,65 700,100 800,90 L800,130 L0,130 Z;
+              M0,95 C140,115 300,80 460,100 C580,115 690,85 800,95 L800,130 L0,130 Z;
+              M0,100 C160,75 320,115 480,85 C600,65 700,100 800,90 L800,130 L0,130 Z"
+      dur="4s" begin="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- 流れ星 -->
+  <line x1="0" y1="25" x2="0" y2="25" stroke="#c4b5fd" stroke-width="1.2" opacity="0">
+    <animate attributeName="x1" values="-60;820" dur="2.2s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;880"   dur="2.2s" begin="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0.7;0" dur="2.2s" begin="0.8s" repeatCount="indefinite"/>
+  </line>
+  <line x1="0" y1="45" x2="0" y2="45" stroke="#a78bfa" stroke-width="1" opacity="0">
+    <animate attributeName="x1" values="-80;820" dur="1.8s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="0;900"   dur="1.8s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" dur="1.8s" begin="2.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- 瞬く星 -->
+  <circle cx="120" cy="30" r="1.5" fill="#c4b5fd" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="20" r="1.2" fill="#ffffff" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="670" cy="35" r="1.5" fill="#a78bfa" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

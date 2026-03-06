@@ -5,9 +5,11 @@
 
 <img src="./assets/header.svg" width="100%" />
 
-<br>
+<br><br>
 
 <img src="./assets/cat-keyboard.gif" width="320" />
+
+<br>
 
 </div>
 
@@ -24,9 +26,11 @@
 
 <img src="https://komarev.com/ghpvc/?username=funatoyouhei&color=4c1d95&style=for-the-badge&label=VISITORS" alt="visitors" />
 
-<br>
+<br><br>
 
 <img src="./assets/coffee-steam.gif" width="180" />
+
+<br>
 
 </div>
 
@@ -35,6 +39,8 @@
 <!-- ============================================ -->
 
 <div align="center">
+
+<br>
 
 ```
 $ cat ~/.status --verbose
@@ -70,6 +76,8 @@ $ cat ~/.status --verbose
 </tr>
 </table>
 
+<br>
+
 </div>
 
 <!-- ============================================ -->
@@ -77,6 +85,8 @@ $ cat ~/.status --verbose
 <!-- ============================================ -->
 
 <div align="center">
+
+<br>
 
 ```
 $ ls -la ./projects/ && cat ./interests.md
@@ -114,6 +124,8 @@ $ ls -la ./projects/ && cat ./interests.md
 </tr>
 </table>
 
+<br>
+
 </div>
 
 <!-- ============================================ -->
@@ -121,6 +133,8 @@ $ ls -la ./projects/ && cat ./interests.md
 <!-- ============================================ -->
 
 <div align="center">
+
+<br>
 
 ```
 $ ls ./toolbox/ -la --color=always
@@ -144,6 +158,8 @@ $ ls ./toolbox/ -la --color=always
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=2000&color=8b949e&center=true&vCenter=true&repeat=true&width=450&height=30&lines=AI%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AF%E5%90%8C%E5%83%9A%E3%81%A7%E3%81%82%E3%82%8A%E3%80%81%E3%81%9F%E3%81%BE%E3%81%AB%E3%83%9A%E3%82%A2%E3%83%97%E3%83%AD%E7%9B%B8%E6%89%8B%E3%80%82;%E7%8C%AB%E3%82%82%E3%81%9F%E3%81%BE%E3%81%ABpull+request%E3%82%92%E5%87%BA%E3%81%99%E3%80%82" alt="AI agents are colleagues" />
 
+<br>
+
 </div>
 
 <!-- ============================================ -->
@@ -151,6 +167,8 @@ $ ls ./toolbox/ -la --color=always
 <!-- ============================================ -->
 
 <div align="center">
+
+<br>
 
 ```
 $ git log --oneline --graph --all --decorate | head -∞
@@ -171,19 +189,28 @@ $ git log --oneline --graph --all --decorate | head -∞
   </picture>
 </a>
 
-<br>
+<br><br>
 
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" />
+
+<br>
+
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" />
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" />
+
+<br>
+
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/3-stats.svg" width="49%" />
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" />
-<br>
+
+<br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=funatoyouhei&theme=github-compact&hide_border=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=c9d1d9&area=true&area_color=1a1e2e" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=funatoyouhei&theme=minimal&hide_border=true&area=true" width="95%" />
 </picture>
+
+<br>
 
 </div>
 
@@ -192,6 +219,8 @@ $ git log --oneline --graph --all --decorate | head -∞
 <!-- ============================================ -->
 
 <div align="center">
+
+<br>
 
 ```
 $ python3 snake.py --feed-on-contributions
@@ -205,6 +234,8 @@ $ python3 snake.py --feed-on-contributions
   <img alt="github-snake" src="https://raw.githubusercontent.com/funatoyouhei/funatoyouhei/output/github-snake.svg" width="100%" />
 </picture>
 
+<br>
+
 </div>
 
 <!-- ============================================ -->
@@ -212,6 +243,8 @@ $ python3 snake.py --feed-on-contributions
 <!-- ============================================ -->
 
 <div align="center">
+
+<br>
 
 ```
 $ echo $LINKS
@@ -225,7 +258,7 @@ $ echo $LINKS
 
 <br><br>
 
-<img src="./assets/coffee-pour.gif" width="100" />
+<img src="./assets/coffee-pour.gif" width="200" />
 
 <br><br>
 
@@ -233,9 +266,11 @@ $ echo $LINKS
   <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="28" />
 </a>
 
-<br>
+<br><br>
 
 <b>深夜のコーヒー代になります。猫のおやつかも。もしくは猫専用のPCを購入するかも。</b>
+
+<br>
 
 </div>
 
@@ -247,7 +282,7 @@ $ echo $LINKS
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,30:2d1b4e,60:1a1e2e,100:0d1117&height=120&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1500&color=8b949e&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=100&lines=%24%20exit;%E3%81%AA%E3%81%8A%E7%8C%AB%E3%81%AF%E3%81%BE%E3%81%A0%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E4%B8%8A%E3%81%AB%E3%81%84%E3%82%8B;Connection%20closed.;%5B%E6%96%B0%E3%81%97%E3%81%84%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%E9%96%8B%E5%A7%8B%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%5D" alt="footer typing" />
 
