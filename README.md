@@ -22,11 +22,11 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=funatoyouhei&color=4c1d95&style=flat-square&label=%E3%81%93%E3%81%AE%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AE%E8%A8%AA%E5%95%8F%E8%80%85" alt="visitors" />
+<img src="https://komarev.com/ghpvc/?username=funatoyouhei&color=4c1d95&style=for-the-badge&label=VISITORS" alt="visitors" />
 
 <br>
 
-<img src="./assets/coffee-steam.gif" width="60" />
+<img src="./assets/coffee-steam.gif" width="180" />
 
 </div>
 

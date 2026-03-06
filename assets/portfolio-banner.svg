@@ -69,16 +69,31 @@
       <animate attributeName="opacity" values="0.9;1;0.9" dur="0.9s" begin="0.3s" repeatCount="indefinite"/>
     </text>
 
-    <!-- 右上のコーナードット -->
-    <circle cx="316" cy="16" r="3" fill="#58a6ff" filter="url(#glow-sm)">
-      <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="326" cy="16" r="3" fill="#a78bfa" filter="url(#glow-sm)">
-      <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" begin="0.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="336" cy="16" r="3" fill="#c4b5fd" filter="url(#glow-sm)">
-      <animate attributeName="opacity" values="1;0.1;1" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
-    </circle>
+    <!-- 右上：瞬く星（4点光芒） -->
+    <g transform="translate(316,16)" filter="url(#glow-sm)">
+      <circle r="3" fill="#58a6ff">
+        <animate attributeName="r" values="2;4;2" dur="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="-7" y1="0" x2="7" y2="0" stroke="#58a6ff" stroke-width="0.8" opacity="0.7"/>
+      <line x1="0" y1="-7" x2="0" y2="7" stroke="#58a6ff" stroke-width="0.8" opacity="0.7"/>
+    </g>
+    <g transform="translate(328,14)" filter="url(#glow-sm)">
+      <circle r="2" fill="#a78bfa">
+        <animate attributeName="r" values="1.5;3.5;1.5" dur="1.8s" begin="0.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" begin="0.3s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#a78bfa" stroke-width="0.7" opacity="0.6"/>
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#a78bfa" stroke-width="0.7" opacity="0.6"/>
+    </g>
+    <g transform="translate(338,17)" filter="url(#glow-sm)">
+      <circle r="2.5" fill="#c4b5fd">
+        <animate attributeName="r" values="2;4;2" dur="1.1s" begin="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="1.1s" begin="0.6s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="-6" y1="0" x2="6" y2="0" stroke="#c4b5fd" stroke-width="0.8" opacity="0.6"/>
+      <line x1="0" y1="-6" x2="0" y2="6" stroke="#c4b5fd" stroke-width="0.8" opacity="0.6"/>
+    </g>
   </g>
 
   <!-- 外枠（グロー点滅） -->

@@ -167,7 +167,7 @@
   <!-- サブタイトル -->
   <text x="400" y="152" text-anchor="middle" font-family="'Courier New', monospace"
         font-size="15" fill="#a78bfa" opacity="0" filter="url(#glow-sm)">
-    深夜2時のターミナルが暴走した
+    深夜のコミット。少し変なモノを丁寧に作る。
     <animate attributeName="opacity" values="0;0;0.9" dur="1.8s" fill="freeze"/>
     <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1.8s" repeatCount="indefinite"/>
   </text>
