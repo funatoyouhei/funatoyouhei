@@ -22,7 +22,7 @@
 
 <br>
 
-![visitors](https://komarev.com/ghpvc/?username=funatoyouhei&color=4c1d95&style=flat-square&label=%E3%81%93%E3%81%AE%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AE%E8%A8%AA%E5%95%8F%E8%80%85)
+<img src="https://komarev.com/ghpvc/?username=funatoyouhei&color=4c1d95&style=flat-square&label=%E3%81%93%E3%81%AE%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%AE%E8%A8%AA%E5%95%8F%E8%80%85" alt="visitors" />
 
 <br>
 
@@ -102,15 +102,14 @@ $ ls -la ./projects/ && cat ./interests.md
 
 ### > ./interests.md
 
-```yaml
-interests:
-  - AI駆動開発         ████░░░░░░
-  - クリエイティブC     ██████░░░░
-  - 自動化（怠惰は美徳）████████░░
-  - UI/UXデザイン      █████░░░░░
-  - 深夜のひらめき      ██████████
-  - 猫プログラミング    ??????????
-```
+<table>
+<tr><td>AI駆動開発</td><td><code>████░░░░░░</code></td></tr>
+<tr><td>クリエイティブコーディング</td><td><code>██████░░░░</code></td></tr>
+<tr><td>自動化（怠惰は美徳）</td><td><code>████████░░</code></td></tr>
+<tr><td>UI/UXデザイン</td><td><code>█████░░░░░</code></td></tr>
+<tr><td>深夜のひらめき</td><td><code>██████████</code></td></tr>
+<tr><td>猫プログラミング</td><td><code>??????????</code></td></tr>
+</table>
 
 </td>
 </tr>
@@ -162,14 +161,14 @@ $ git log --oneline --graph --all --decorate | head -∞
 
 <img src="https://img.shields.io/github/followers/funatoyouhei?label=Followers&style=for-the-badge&color=58a6ff&labelColor=0d1117&logo=github&logoColor=white" />
 <img src="https://img.shields.io/github/stars/funatoyouhei?label=Stars&style=for-the-badge&color=a371f7&labelColor=0d1117&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Since-2024-4c1d95?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Since-2019-4c1d95?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
 
 <br><br>
 
 <a href="https://github.com/funatoyouhei">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=funatoyouhei&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=a371f7&currStreakLabel=c9d1d9&sideLabels=8b949e&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" />
-    <img src="https://streak-stats.demolab.com?user=funatoyouhei&theme=default&hide_border=true" width="70%" />
+    <img src="https://streak-stats.demolab.com?user=funatoyouhei&theme=default&hide_border=true" width="100%" />
   </picture>
 </a>
 
