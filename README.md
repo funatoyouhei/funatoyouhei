@@ -18,7 +18,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=c9d1d9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=120&lines=%24+whoami;Y%C5%8Dhei+%E2%80%94+%E3%81%A4%E3%81%8F%E3%82%8B%E4%BA%BA%E3%80%82%E3%81%93%E3%82%8F%E3%81%99%E4%BA%BA%EF%BC%88%E3%81%9F%E3%81%BE%E3%81%AB%EF%BC%89%E3%80%82;%E6%B7%B1%E5%A4%9C2%E6%99%82%E3%80%81%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8C%E6%9A%B4%E8%B5%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%81%9F%E2%80%94%E2%80%94" alt="typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=c9d1d9&center=true&vCenter=true&multiline=true&repeat=true&width=480&height=120&lines=%24+whoami;Y%C5%8Dhei+%E2%80%94+%E3%81%A4%E3%81%8F%E3%82%8B%E4%BA%BA%E3%80%82%E3%81%93%E3%82%8F%E3%81%99%E4%BA%BA%EF%BC%88%E3%81%9F%E3%81%BE%E3%81%AB%EF%BC%89%E3%80%82;%E6%B7%B1%E5%A4%9C2%E6%99%82%E3%80%81%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8C%E6%9A%B4%E8%B5%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%81%9F%E2%80%94%E2%80%94" alt="typing animation" />
 
 <br>
 
