@@ -68,7 +68,7 @@ $ cat ~/.status --verbose
 
 <img src="./assets/cat-coding.gif" width="220" />
 
-<br><br>
+<br>
 
 <sub>「あと5分で寝る」（3時間前のログ）</sub>
 
