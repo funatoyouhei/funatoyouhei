@@ -170,8 +170,8 @@ $ git log --oneline --graph --all --decorate | head -∞
 
 <a href="https://github.com/funatoyouhei">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=funatoyouhei&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=funatoyouhei&theme=default&hide_border=true" width="70%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=funatoyouhei&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" />
+    <img src="https://streak-stats.demolab.com?user=funatoyouhei&theme=default&hide_border=true" width="70%" />
   </picture>
 </a>
 
