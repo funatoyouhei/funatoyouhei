@@ -260,6 +260,8 @@ $ echo $LINKS
 
 <img src="./assets/coffee-pour.gif" width="200" />
 
+<br><br>
+
 <a href="https://buymeacoffee.com/funatoyouhei">
   <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="28" />
 </a>
