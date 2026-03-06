@@ -1,103 +1,182 @@
 <svg width="100%" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- 背景グラデーション -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="35%" style="stop-color:#1a1e2e"/>
-      <stop offset="70%" style="stop-color:#2d1b4e"/>
-      <stop offset="100%" style="stop-color:#4c1d95"/>
-    </linearGradient>
-    <!-- グロー用フィルター -->
-    <filter id="glow-strong">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <radialGradient id="space-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%"   style="stop-color:#1a0a2e"/>
+      <stop offset="40%"  style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#000005"/>
+    </radialGradient>
+    <radialGradient id="nebula1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%"   style="stop-color:#4c1d95;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#4c1d95;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="75%" cy="65%" r="45%">
+      <stop offset="0%"   style="stop-color:#1e3a5f;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#1e3a5f;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="glow-xl">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="glow-soft">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="glow-md">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <!-- スキャンラインパターン -->
-    <pattern id="scanlines" width="100%" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="800" y2="0" stroke="rgba(255,255,255,0.03)" stroke-width="2"/>
-    </pattern>
+    <filter id="glow-sm">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <!-- 背景 -->
-  <rect width="800" height="220" fill="url(#bg)"/>
-  <!-- スキャンライン -->
-  <rect width="800" height="220" fill="url(#scanlines)" opacity="0.5"/>
+  <!-- 宇宙背景 -->
+  <rect width="800" height="220" fill="url(#space-bg)"/>
+  <!-- 星雲 -->
+  <rect width="800" height="220" fill="url(#nebula1)"/>
+  <rect width="800" height="220" fill="url(#nebula2)"/>
 
-  <!-- 流れる光の粒子 -->
-  <g opacity="0.6">
-    <circle cx="50" cy="60" r="2" fill="#a371f7">
-      <animate attributeName="cx" from="-10" to="810" dur="6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="200" cy="120" r="1.5" fill="#58a6ff">
-      <animate attributeName="cx" from="-10" to="810" dur="8s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="8s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="350" cy="40" r="2" fill="#c9d1d9">
-      <animate attributeName="cx" from="-10" to="810" dur="7s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="7s" begin="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="500" cy="160" r="1.5" fill="#a371f7">
-      <animate attributeName="cx" from="-10" to="810" dur="9s" begin="0.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="9s" begin="0.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="100" cy="180" r="2" fill="#58a6ff">
-      <animate attributeName="cx" from="-10" to="810" dur="5s" begin="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="5s" begin="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="650" cy="90" r="1" fill="#c9d1d9">
-      <animate attributeName="cx" from="-10" to="810" dur="10s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;1;1;0" dur="10s" begin="1.5s" repeatCount="indefinite"/>
-    </circle>
+  <!-- ===== 遠景：小さな固定星 ===== -->
+  <g fill="white" opacity="0.5">
+    <circle cx="42"  cy="18"  r="0.7"/>
+    <circle cx="130" cy="8"   r="0.5"/>
+    <circle cx="210" cy="32"  r="0.8"/>
+    <circle cx="310" cy="12"  r="0.6"/>
+    <circle cx="420" cy="25"  r="0.7"/>
+    <circle cx="530" cy="7"   r="0.5"/>
+    <circle cx="620" cy="30"  r="0.8"/>
+    <circle cx="720" cy="15"  r="0.6"/>
+    <circle cx="770" cy="38"  r="0.5"/>
+    <circle cx="60"  cy="195" r="0.7"/>
+    <circle cx="150" cy="205" r="0.5"/>
+    <circle cx="250" cy="188" r="0.8"/>
+    <circle cx="370" cy="210" r="0.6"/>
+    <circle cx="480" cy="198" r="0.7"/>
+    <circle cx="590" cy="208" r="0.5"/>
+    <circle cx="680" cy="192" r="0.8"/>
+    <circle cx="750" cy="202" r="0.6"/>
+    <circle cx="95"  cy="80"  r="0.6"/>
+    <circle cx="178" cy="145" r="0.5"/>
+    <circle cx="345" cy="70"  r="0.7"/>
+    <circle cx="455" cy="155" r="0.6"/>
+    <circle cx="545" cy="85"  r="0.5"/>
+    <circle cx="665" cy="130" r="0.7"/>
+    <circle cx="735" cy="90"  r="0.6"/>
+    <circle cx="18"  cy="120" r="0.5"/>
+    <circle cx="788" cy="160" r="0.5"/>
   </g>
 
-  <!-- パルスする背景リング -->
-  <circle cx="400" cy="110" r="80" fill="none" stroke="#4c1d95" stroke-width="1" opacity="0.3">
-    <animate attributeName="r" values="60;120;60" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite"/>
+  <!-- ===== 瞬く星（中サイズ） ===== -->
+  <circle cx="80"  cy="45"  r="1.5" fill="#ffffff" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="1;0.1;1;0.6;1" dur="2.3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="400" cy="110" r="100" fill="none" stroke="#2d1b4e" stroke-width="1" opacity="0.2">
-    <animate attributeName="r" values="80;150;80" dur="4s" begin="0.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0;0.3" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+  <circle cx="200" cy="170" r="1.8" fill="#a78bfa" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="0.2;1;0.2;1;0.2" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="330" cy="55"  r="1.5" fill="#93c5fd" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="1;0.3;0.8;0.1;1" dur="3.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="490" cy="175" r="1.6" fill="#ffffff" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="0.5;1;0.2;1;0.5" dur="2.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="50"  r="1.8" fill="#c4b5fd" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="1;0.2;1;0.4;1" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="730" cy="170" r="1.5" fill="#93c5fd" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="0.3;1;0.3;0.8;0.3" dur="1.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="145" cy="100" r="1.4" fill="#a78bfa" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="1;0.1;1" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="660" cy="105" r="1.6" fill="#ffffff" filter="url(#glow-sm)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.3s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- メインタイトル -->
-  <text x="400" y="105" text-anchor="middle" font-family="'Courier New', monospace"
-        font-size="58" font-weight="bold" fill="#c9d1d9" filter="url(#glow-strong)">
+  <!-- ===== 星が飛ぶ（高速ストリーク） ===== -->
+  <g filter="url(#glow-sm)">
+    <!-- 上段 -->
+    <line x1="0" y1="35" x2="0" y2="35" stroke="#c4b5fd" stroke-width="1.5" opacity="0">
+      <animate attributeName="x1" values="-80;820" dur="1.8s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;900"   dur="1.8s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="y1" values="35;35"   dur="1.8s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="y2" values="35;35"   dur="1.8s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0.9;0" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="80" x2="0" y2="80" stroke="#93c5fd" stroke-width="1" opacity="0">
+      <animate attributeName="x1" values="-60;820" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;880"   dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0.7;0" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="155" x2="0" y2="155" stroke="#a78bfa" stroke-width="1.5" opacity="0">
+      <animate attributeName="x1" values="-100;820" dur="1.5s" begin="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;920"    dur="1.5s" begin="1.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.5s" begin="1.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="195" x2="0" y2="195" stroke="#ffffff" stroke-width="1" opacity="0">
+      <animate attributeName="x1" values="-50;820" dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;870"   dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0.6;0" dur="2.5s" begin="0.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="115" x2="0" y2="115" stroke="#c4b5fd" stroke-width="2" opacity="0">
+      <animate attributeName="x1" values="-120;820" dur="1.2s" begin="2.0s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;940"    dur="1.2s" begin="2.0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.2s" begin="2.0s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- ===== 輝く大きな星（4点光芒） ===== -->
+  <!-- 左の明るい星 -->
+  <g transform="translate(60,110)" filter="url(#glow-md)">
+    <circle r="3" fill="#ffffff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;4.5;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="white" stroke-width="0.8" opacity="0.6"/>
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="white" stroke-width="0.8" opacity="0.6"/>
+  </g>
+  <!-- 右の明るい星 -->
+  <g transform="translate(740,80)" filter="url(#glow-md)">
+    <circle r="2.5" fill="#c4b5fd">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="2.5;4;2.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#c4b5fd" stroke-width="0.7" opacity="0.5"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#c4b5fd" stroke-width="0.7" opacity="0.5"/>
+  </g>
+
+  <!-- ===== メインタイトル ===== -->
+  <!-- 影グロー（複数重ね） -->
+  <text x="400" y="108" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="60" font-weight="bold" fill="#7c3aed" opacity="0.4" filter="url(#glow-xl)">
     funatoyouhei
-    <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <!-- 本体（チカチカ） -->
+  <text x="400" y="108" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="60" font-weight="bold" fill="#e2d9f3" filter="url(#glow-md)">
+    funatoyouhei
+    <animate attributeName="fill"
+      values="#e2d9f3;#ffffff;#c4b5fd;#ffffff;#e2d9f3;#a78bfa;#ffffff;#e2d9f3"
+      dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.9;1;0.75;1;0.95;1" dur="1.6s" repeatCount="indefinite"/>
   </text>
 
-  <!-- アンダーライン（伸びるアニメ） -->
-  <line x1="400" y1="115" x2="400" y2="115" stroke="#a371f7" stroke-width="2" filter="url(#glow-soft)">
-    <animate attributeName="x1" from="400" to="120" dur="1.2s" fill="freeze"/>
-    <animate attributeName="x2" from="400" to="680" dur="1.2s" fill="freeze"/>
+  <!-- アンダーライン（伸びる→グロー点滅） -->
+  <line x1="400" y1="118" x2="400" y2="118" stroke="#a78bfa" stroke-width="1.5" filter="url(#glow-sm)">
+    <animate attributeName="x1" from="400" to="115" dur="1s" fill="freeze"/>
+    <animate attributeName="x2" from="400" to="685" dur="1s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="1s" repeatCount="indefinite"/>
   </line>
 
   <!-- サブタイトル -->
-  <text x="400" y="155" text-anchor="middle" font-family="'Courier New', monospace"
-        font-size="16" fill="#a371f7" opacity="0" filter="url(#glow-soft)">
+  <text x="400" y="152" text-anchor="middle" font-family="'Courier New', monospace"
+        font-size="15" fill="#a78bfa" opacity="0" filter="url(#glow-sm)">
     深夜2時のターミナルが暴走した
-    <animate attributeName="opacity" values="0;0;1" dur="2s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0.7;1" dur="2.5s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.9" dur="1.8s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" begin="1.8s" repeatCount="indefinite"/>
   </text>
 
-  <!-- コーナーデコレーション -->
-  <text x="16" y="24" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.7">~/funatoyouhei</text>
-  <text x="784" y="24" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.7" text-anchor="end">$ _</text>
-  <text x="784" y="210" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.7" text-anchor="end">
+  <!-- ターミナルコーナー -->
+  <text x="14" y="22" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.8">~/funatoyouhei</text>
+  <text x="786" y="22" font-family="monospace" font-size="11" fill="#4c1d95" opacity="0.8" text-anchor="end">$ _</text>
+  <text x="786" y="212" font-family="monospace" font-size="11" fill="#4c1d95" text-anchor="end">
     [深夜モード: ON]
-    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.15;0.8" dur="1.4s" repeatCount="indefinite"/>
   </text>
 </svg>

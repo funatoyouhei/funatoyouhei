@@ -108,9 +108,8 @@ $ ls -la ./projects/ && cat ./interests.md
 <tr><td>自動化（怠惰は美徳）</td><td><code>████████░░</code></td></tr>
 <tr><td>UI/UXデザイン</td><td><code>█████░░░░░</code></td></tr>
 <tr><td>深夜のひらめき</td><td><code>██████████</code></td></tr>
-<tr><td>猫プログラミング</td><td><code>??????????</code></td></tr>
+<tr><td>猫プログラミング</td><td><code>██████████</code></td></tr>
 </table>
-
 </td>
 </tr>
 </table>
@@ -172,21 +171,14 @@ $ git log --oneline --graph --all --decorate | head -∞
   </picture>
 </a>
 
-<br><br>
+<br>
 
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" />
-
-<br>
-
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" />
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" />
-
-<br>
-
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/3-stats.svg" width="49%" />
 <img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" />
-
-<br><br>
+<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=funatoyouhei&theme=github-compact&hide_border=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=c9d1d9&area=true&area_color=1a1e2e" />
@@ -228,7 +220,7 @@ $ echo $LINKS
 <br>
 
 <a href="https://portfolio-713.pages.dev/">
-  <img src="./assets/portfolio-banner.svg" width="280" />
+  <img src="./assets/portfolio-banner.svg" width="340" />
 </a>
 
 <br><br>
