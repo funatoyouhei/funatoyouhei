@@ -3,7 +3,7 @@
 <!-- ============================================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:1a1e2e,60:2d1b4e,100:4c1d95&height=240&section=header&text=funatoyouhei&fontSize=52&fontColor=c9d1d9&fontAlignY=70&animation=fadeIn&desc=深夜2時のターミナルが暴走した&descSize=16&descAlignY=85&descColor=8b949e" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,40:1a1e2e,70:2d1b4e,100:4c1d95&height=220&section=header&text=funatoyouhei&fontSize=64&fontColor=c9d1d9&fontAlignY=55&animation=fadeIn&desc=深夜2時のターミナルが暴走した&descSize=18&descAlignY=78&descColor=a371f7" width="100%" />
 
 <br>
 
@@ -18,7 +18,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=c9d1d9&center=true&vCenter=true&multiline=true&repeat=true&width=480&height=120&lines=%24+whoami;Y%C5%8Dhei+%E2%80%94+%E3%81%A4%E3%81%8F%E3%82%8B%E4%BA%BA%E3%80%82%E3%81%93%E3%82%8F%E3%81%99%E4%BA%BA%EF%BC%88%E3%81%9F%E3%81%BE%E3%81%AB%EF%BC%89%E3%80%82;%E6%B7%B1%E5%A4%9C2%E6%99%82%E3%80%81%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8C%E6%9A%B4%E8%B5%B0%E3%82%92%E5%A7%8B%E3%82%81%E3%81%9F%E2%80%94%E2%80%94" alt="typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=c9d1d9&center=true&vCenter=true&multiline=true&repeat=true&width=480&height=120&lines=%24+whoami;Y%C5%8Dhei+%2F+%E6%B7%B1%E5%A4%9C%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2+%2F+%E7%8C%AB%E3%81%AE%E4%B8%8B%E5%83%95;%E3%81%A4%E3%81%8F%E3%82%8B%E4%BA%BA%E3%80%82%E3%81%93%E3%82%8F%E3%81%99%E4%BA%BA%EF%BC%88%E3%81%9F%E3%81%BE%E3%81%AB%EF%BC%89%E3%80%82;%E6%B7%B1%E5%A4%9C2%E6%99%82%E3%80%81%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8C%E6%9A%B4%E8%B5%B0%E9%96%8B%E5%A7%8B%E2%80%94%E2%80%94%E3%80%82" alt="typing animation" />
 
 <br>
 
@@ -46,13 +46,13 @@ $ cat ~/.status --verbose
 
 ```
 現在の状態:
-├── コーヒー ........ 3杯目（たぶん冷めてる）
-├── 猫 .............. 膝の上（重い、どかない）
+├── コーヒー ........ 4杯目（3杯目は全部猫がこぼした）
+├── 猫 .............. キーボードの上（まもなくPCが熱暴走）
 ├── 時刻 ............ 深夜（いつも）
-├── BGM ............. Lo-fi Hip Hop
-├── ブラウザタブ .... 47個（閉じる勇気がない）
-├── TODO ............ 増殖中（自己複製疑惑）
-└── コード .......... なんか動いてる（理由は不明）
+├── BGM ............. Lo-fi Rhodes piano（3年同じプレイリスト）
+├── ブラウザタブ .... 52個（うち有益なもの: 0）
+├── TODO ............ 847件（昨日より3件増えた）
+└── コード .......... なぜか動いてる。触らない。
 ```
 
 </td>
@@ -89,12 +89,12 @@ $ ls -la ./projects/ && cat ./interests.md
 ### > ./projects/
 
 ```diff
-+ AIと一緒にコードを書く実験
-+ 個人プロダクトをいくつか同時進行
-+ UIの気持ちよさを追求する日々
-! 猫がEnterキーを押してデプロイされた
-! git push -f を猫のせいにした（本当）
++ AIに「これやっといて」と丸投げする実験中
++ 「完成まであと少し」が3週間続いてる
++ 深夜に思いついた天才的アイデア（朝見たら即没だった）
+! 猫がEnterキーを押してデプロイしてしまった
 - 睡眠時間（削除済み）
+- 週1の運動（404 Not Found）
 ```
 
 </td>
@@ -168,7 +168,7 @@ $ git log --oneline --graph --all --decorate | head -∞
 <a href="https://github.com/funatoyouhei">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=funatoyouhei&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=a371f7&currStreakLabel=c9d1d9&sideLabels=8b949e&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" />
-    <img src="https://streak-stats.demolab.com?user=funatoyouhei&theme=default&hide_border=true" width="100%" />
+    <img src="https://streak-stats.demolab.com?user=funatoyouhei&theme=default&hide_border=true" width="80%" />
   </picture>
 </a>
 
@@ -243,7 +243,7 @@ $ echo $LINKS
 
 <br>
 
-<sub>深夜のコーヒー代になります。猫のおやつかも。</sub>
+<sub>深夜のコーヒー代になります。猫のおやつかも。もしくは猫専用のPCを購入するかも。</sub>
 
 </div>
 
@@ -257,6 +257,6 @@ $ echo $LINKS
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,30:2d1b4e,60:1a1e2e,100:0d1117&height=120&section=footer" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1500&color=8b949e&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=100&lines=%24+exit;logout;...%E7%8C%AB%E3%81%8CEnter%E3%82%92%E6%8A%BC%E3%81%97%E3%81%9F;Connection+closed.+(or+did+it%3F)" alt="footer typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1500&color=8b949e&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=100&lines=%24%20exit;%E3%81%AA%E3%81%8A%E7%8C%AB%E3%81%AF%E3%81%BE%E3%81%A0%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E4%B8%8A%E3%81%AB%E3%81%84%E3%82%8B;Connection%20closed.;%5B%E6%96%B0%E3%81%97%E3%81%84%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%E9%96%8B%E5%A7%8B%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%5D" alt="footer typing" />
 
 </div>
