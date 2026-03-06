@@ -228,10 +228,6 @@ $ echo $LINKS
 
 <br><br>
 
-<details>
-<summary><sub>もしよければ</sub></summary>
-<br>
-
 <img src="./assets/coffee-pour.gif" width="100" />
 
 <br><br>
@@ -243,7 +239,6 @@ $ echo $LINKS
 <br>
 
 <sub>深夜のコーヒー代になります。猫のおやつかも。</sub>
-</details>
 
 </div>
 
