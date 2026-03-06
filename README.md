@@ -280,6 +280,6 @@ $ echo $LINKS
 
 <img src="./assets/footer.svg" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1500&color=8b949e&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=100&lines=%24%20exit;%E3%81%AA%E3%81%8A%E7%8C%AB%E3%81%AF%E3%81%BE%E3%81%A0%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E4%B8%8A%E3%81%AB%E3%81%84%E3%82%8B;Connection%20closed.;%5B%E6%96%B0%E3%81%97%E3%81%84%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%E9%96%8B%E5%A7%8B%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%5D" alt="footer typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=1500&color=8b949e&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=100&lines=%24%20exit;Connection%20closed.;%E7%8C%AB%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%8C%E7%B5%82%E4%BA%86%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%9B%E3%82%93;%E7%8C%AB%E3%81%8C%E6%9A%B4%E8%B5%B0%E3%82%92%E9%96%8B%E5%A7%8B%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F" alt="footer typing" />
 
 </div>
