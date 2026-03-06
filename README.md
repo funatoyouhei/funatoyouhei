@@ -3,11 +3,11 @@
 <!-- ============================================ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:0d1117,30:1a1e2e,60:2d1b4e,100:4c1d95&height=200&section=header&text=&fontSize=0" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:1a1e2e,60:2d1b4e,100:4c1d95&height=240&section=header&text=funatoyouhei&fontSize=52&fontColor=c9d1d9&fontAlignY=70&animation=fadeIn&desc=深夜2時のターミナルが暴走した&descSize=16&descAlignY=85&descColor=8b949e" width="100%" />
 
 <br>
 
-<img src="./assets/cat-keyboard.gif" width="350" />
+<img src="./assets/cat-keyboard.gif" width="320" />
 
 </div>
 
@@ -130,11 +130,17 @@ $ ls ./toolbox/ -la --color=always
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,swift,firebase&theme=dark&perline=8" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs&theme=dark&perline=8" />
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=swift,firebase,git,github,figma,vscode,vercel,cloudflare&theme=dark&perline=8" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Claude_Code-cc785c?style=for-the-badge&logo=anthropic&logoColor=white" /> <img src="https://img.shields.io/badge/Codex_CLI-000000?style=for-the-badge&logo=openai&logoColor=white" /> <img src="https://img.shields.io/badge/Gemini_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Claude_Code-cc785c?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Codex_CLI-000000?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini_CLI-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 
 <br>
 
@@ -155,17 +161,31 @@ $ git log --oneline --graph --all --decorate | head -∞
 <br>
 
 <img src="https://img.shields.io/github/followers/funatoyouhei?label=Followers&style=for-the-badge&color=58a6ff&labelColor=0d1117&logo=github&logoColor=white" />
-<img src="https://img.shields.io/github/stars/funatoyouhei?label=Stars&style=for-the-badge&color=58a6ff&labelColor=0d1117&logo=github&logoColor=white" />
+<img src="https://img.shields.io/github/stars/funatoyouhei?label=Stars&style=for-the-badge&color=a371f7&labelColor=0d1117&logo=github&logoColor=white" />
 <img src="https://img.shields.io/badge/Since-2024-4c1d95?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
 
 <br><br>
 
 <a href="https://github.com/funatoyouhei">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=funatoyouhei&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=funatoyouhei&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=a371f7&currStreakLabel=c9d1d9&sideLabels=8b949e&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" />
     <img src="https://streak-stats.demolab.com?user=funatoyouhei&theme=default&hide_border=true" width="70%" />
   </picture>
 </a>
+
+<br><br>
+
+<img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" />
+
+<br>
+
+<img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" />
+<img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" />
+
+<br>
+
+<img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/3-stats.svg" width="49%" />
+<img src="https://github.com/funatoyouhei/funatoyouhei/blob/main/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" />
 
 <br><br>
 
