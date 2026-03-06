@@ -102,13 +102,14 @@ $ ls -la ./projects/ && cat ./interests.md
 
 ### > ./interests.md
 
-```
-AI駆動開発 ............... [####------]
-クリエイティブコーディング . [######----]
-自動化（怠惰は美徳） ..... [########--]
-UI/UXデザイン ............ [#####-----]
-深夜のひらめき ........... [##########]
-猫プログラミング ......... [??????????]
+```yaml
+interests:
+  - AI駆動開発         ████░░░░░░
+  - クリエイティブC     ██████░░░░
+  - 自動化（怠惰は美徳）████████░░
+  - UI/UXデザイン      █████░░░░░
+  - 深夜のひらめき      ██████████
+  - 猫プログラミング    ??????????
 ```
 
 </td>
@@ -142,7 +143,7 @@ $ ls ./toolbox/ -la --color=always
 </div>
 
 <!-- ============================================ -->
-<!-- セクション5: GitHub Stats フルセット          -->
+<!-- セクション5: GitHub Stats                    -->
 <!-- ============================================ -->
 
 <div align="center">
@@ -153,32 +154,17 @@ $ git log --oneline --graph --all --decorate | head -∞
 
 <br>
 
-<a href="https://github.com/funatoyouhei">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=funatoyouhei&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&icon_color=58a6ff&ring_color=58a6ff" />
-    <img src="https://github-readme-stats.vercel.app/api?username=funatoyouhei&show_icons=true&theme=default&hide_border=true" height="160" />
-  </picture>
-</a>
-<a href="https://github.com/funatoyouhei">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=funatoyouhei&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=funatoyouhei&layout=compact&theme=default&hide_border=true" height="160" />
-  </picture>
-</a>
+<img src="https://img.shields.io/github/followers/funatoyouhei?label=Followers&style=for-the-badge&color=58a6ff&labelColor=0d1117&logo=github&logoColor=white" />
+<img src="https://img.shields.io/github/stars/funatoyouhei?label=Stars&style=for-the-badge&color=58a6ff&labelColor=0d1117&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Since-2024-4c1d95?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
 
-<br>
+<br><br>
 
 <a href="https://github.com/funatoyouhei">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=funatoyouhei&theme=dark&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=c9d1d9&sideLabels=8b949e&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e" />
     <img src="https://streak-stats.demolab.com?user=funatoyouhei&theme=default&hide_border=true" width="70%" />
   </picture>
-</a>
-
-<br>
-
-<a href="https://github.com/funatoyouhei">
-  <img src="https://github-profile-trophy.vercel.app/?username=funatoyouhei&theme=darkhub&no-frame=true&column=7&margin-w=10" width="90%" />
 </a>
 
 <br><br>
