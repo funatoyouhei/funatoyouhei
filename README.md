@@ -24,7 +24,7 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=funatoyouhei&color=4c1d95&style=for-the-badge&label=VISITORS" alt="visitors" />
+<img src="https://komarev.com/ghpvc/?username=funatoyouhei&color=4c1d95&style=for-the-badge&label=VISITORS&v=1" alt="visitors" />
 
 <br><br>
 
